@@ -1,14 +1,11 @@
-desc "Imports a CSV file into an ActiveRecord table"
-task :csv_model_import, :filename, :model, :needs => :environment do |task,args|
-  lines = File.new(args[:filename]).readlines
-  header = lines.shift.strip
-  keys = header.split(',')
-  lines.each do |line|
-    params = {}
-    values = line.strip.split(',')
-    keys.each_with_index do |key,i|
-      params[key] = values[i]
-    end
-    Module.const_get(args[:model]).create(params)
+require 'csv'
+
+desc "Import vocab from csv file"
+task :import => [:environment] do
+  csv_text = File.read('db/gumdo_vocab.csv')
+  csv = CSV.parse(csv_text, :headers => true)
+  csv.each do |row|
+    row = row.to_hash.with_indifferent_access
+    VocabTerm.create!(row.to_hash.symbolize_keys)
   end
 end
