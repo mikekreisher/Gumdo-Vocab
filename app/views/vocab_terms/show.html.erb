@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+ 
+<p>
+  <b>English:</b>
+  <%= @vocab_term.english %>
+</p>
+ 
+<p>
+  <b>Korean:</b>
+  <%= @vocab_term.korean %>
+</p>
+ 
+<p>
+  <b>Romanized:</b>
+  <%= @vocab_term.romanized %>
+</p>
+
+<p>
+  <b>Category:</b>
+  <%= @vocab_term.category %>
+</p>
+
+<p>
+  <b>Audio Source:</b>
+  <%= @vocab_term.audio_source %>
+</p>
+ 
+<%= link_to 'Edit', edit_vocab_term_path(@vocab_term) %> |
+<%= link_to 'Back', vocab_terms_path %>

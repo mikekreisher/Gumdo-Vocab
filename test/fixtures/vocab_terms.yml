@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  english: MyString
+  korean: MyString
+  romanized: MyString
+  category: MyString
+  audio_source: MyString
+
+two:
+  english: MyString
+  korean: MyString
+  romanized: MyString
+  category: MyString
+  audio_source: MyString

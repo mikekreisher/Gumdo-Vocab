@@ -1,0 +1,36 @@
+<%= form_for(@vocab_term) do |f| %>
+  <% if @vocab_term.errors.any? %>
+  <div id="errorExplanation">
+    <h2><%= pluralize(@vocab_term.errors.count, "error") %> prohibited this term from being saved:</h2>
+    <ul>
+    <% @vocab_term.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+  <% end %>
+ 
+  <div class="field">
+    <%= f.label :english %><br />
+    <%= f.text_field :english %>
+  </div>
+  <div class="field">
+    <%= f.label :korean %><br />
+    <%= f.text_field :korean %>
+  </div>
+  <div class="field">
+    <%= f.label :romanized %><br />
+    <%= f.text_field :romanized %>
+  </div>
+  <div class="field">
+    <%= f.label :category %><br />
+    <%= f.text_field :category %>
+  </div>
+  <div class="field">
+    <%= f.label :audio_source %><br />
+    <%= f.text_field :audio_source %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

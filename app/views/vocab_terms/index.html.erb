@@ -1,0 +1,34 @@
+<h1>Listing Vocab Terms</h1>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>English</th>
+    <th>Korean</th>
+    <th>Romanized</th>
+    <th>Category</th>
+    <th>Audio Source</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+ 
+<% @vocab_terms.each do |term| %>
+  <tr>
+    <td><%= term.id %></td>
+    <td><%= term.english %></td>
+    <td><%= term.korean %></td>
+    <td><%= term.romanized %></td>
+    <td><%= term.category %></td>
+    <td><%= term.audio_source %></td>
+    <td><%= link_to 'Show', term %></td>
+    <td><%= link_to 'Edit', edit_vocab_term_path(term) %></td>
+    <td><%= link_to 'Destroy', term, :confirm => 'Are you sure?',
+                                     :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+ 
+<br />
+ 
+<%= link_to 'New Vocab Term', new_vocab_term_path %>
