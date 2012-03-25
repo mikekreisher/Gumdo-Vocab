@@ -1,0 +1,2 @@
+module GumdoVocabularyHelper
+end
