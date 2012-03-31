@@ -12,10 +12,14 @@ GumdoVocab::Application.routes.draw do
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
   # This route can be invoked with purchase_url(:id => product.id)
   match 'start_game' => 'gumdo_vocabulary#start_game', :as => :start_game
+  match 'next_question' => 'gumdo_vocabulary#next_question', :as => :next_question
+  match '/games/:id/question/:number' => 'games#get_question', :as => :get_question
+  match '/games/:id/question/:number/answer/:answer' => 'games#check_answer', :as => :check_answer
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
   resources :vocab_terms
+  resources :games
   # Sample resource route with options:
   #   resources :products do
   #     member do

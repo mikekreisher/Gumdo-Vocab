@@ -1,0 +1,25 @@
+$('#centerdiv').html("<%= escape_javascript(
+	render :partial=>'vocab_terms/question', 
+		:locals=>{:term=>@vocab, :number=>params[:number], :game=>@game}
+) %>")
+
+$(document).ready(function(){
+	var term_id = <%= escape_javascript(@vocab.id.to_s)%>
+	
+	$('li').on('click', function(){
+		var elm = $(this)
+		$.ajax({
+			url: "<%= escape_javascript(request.env['PATH_INFO'])%>" + "/answer/" + $(this).attr('id'),
+			success: function(data){
+				if(data == "correct"){
+					elm.addClass('correct')
+				} else {
+					term_id = data;
+					elm.addClass('incorrect')
+					$('li#'+term_id).addClass('correct')
+				}
+				$('li').unbind();
+			}
+		});
+	})
+});

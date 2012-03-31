@@ -1,5 +1,5 @@
 class VocabTermsController < ApplicationController
-    def index
+  def index
     @vocab_terms = VocabTerm.all
     
     respond_to do |format|

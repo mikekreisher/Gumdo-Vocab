@@ -1,0 +1,12 @@
+- answers = VocabTerm.select("id, english").sample(3)
+- answers << term
+%p= "Question #{number} of 10"
+#question
+  %h1= term.korean
+  %h3= term.romanized
+#answers
+  %ul
+    - answers.shuffle.each do |answer|
+      %li{:id=>answer.id}= answer.english
+.next_question_button
+  = button_to "Next Question", get_question_path(game, number.to_i + 1), :method=>:get, :remote=>true

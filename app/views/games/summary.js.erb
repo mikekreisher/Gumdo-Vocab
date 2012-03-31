@@ -1,0 +1,4 @@
+$('#centerdiv').html("<h1><%= escape_javascript(
+	render :partial=>'summary', 
+		:locals=>{:game=>@game}
+) %></h1>")

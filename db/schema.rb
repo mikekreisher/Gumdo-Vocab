@@ -10,7 +10,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120324041208) do
+ActiveRecord::Schema.define(:version => 20120331030358) do
+
+  create_table "games", :force => true do |t|
+    t.text     "questions"
+    t.text     "answers"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "vocab_terms", :force => true do |t|
     t.string   "english"

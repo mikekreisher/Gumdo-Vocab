@@ -4,8 +4,19 @@ class GumdoVocabularyController < ApplicationController
   end
   
   def start_game
-    @terms = VocabTerm.all.shuffle.sample(3)
-    @english_terms = VocabTerm.select("english");
+    @questions_total = 10
+    @question_count = 1
+    @terms = VocabTerm.all.shuffle.sample(@questions_total)
+    @english_terms = VocabTerm.select("id, english");
+    render 'game'
+  end
+  
+  def check_answer
+    
+  end
+  
+  def next_question
+    #@question_count += 1
     render 'game'
   end
 
