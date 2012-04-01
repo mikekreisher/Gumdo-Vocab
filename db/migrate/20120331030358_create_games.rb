@@ -3,6 +3,8 @@ class CreateGames < ActiveRecord::Migration
     create_table :games do |t|
       t.text :questions
       t.text :answers
+      t.text :categories
+      t.string :difficulty
 
       t.timestamps
     end

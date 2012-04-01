@@ -1,0 +1,12 @@
+= form_for @game do |f|
+  %h1 How Many Questions:
+  = number_field_tag "questions_total", 10
+  %h1 Difficulty:
+  = radio_button_tag "difficulty", "easy", true
+  = label_tag "difficulty_easy", "Easy"
+  = radio_button_tag "difficulty", "hard"
+  = label_tag "difficulty_hard", "Hard"
+  %h1 Select Your Categories:
+  - @vocab_categories.each do |category|
+    = check_box_tag "categories[#{category}]", category, true, :name=>"categories[]"
+    = label_tag "categories[#{category}]", category

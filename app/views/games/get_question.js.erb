@@ -19,7 +19,15 @@ $(document).ready(function(){
 					$('li#'+term_id).addClass('correct')
 				}
 				$('li').unbind();
+				$('.next_question_button').toggle();
 			}
 		});
-	})
+	});
+	
+	$('.sound').live('click', function () {  
+
+    	if(window.chrome) this.load();
+		this.play();
+    	return false;
+	});
 });

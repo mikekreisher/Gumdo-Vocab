@@ -1,9 +1,13 @@
-- answers = VocabTerm.select("id, english").sample(3)
+- answers = VocabTerm.select("id, english").where(:category => game.categories).sample(3)
 - answers << term
 %p= "Question #{number} of 10"
 #question
   %h1= term.korean
-  %h3= term.romanized
+  %table.audio_wrapper
+    %tr
+      %td
+        = audio_tag(term.audio_source, :auto_play=>false, :controls=>true, :class=>"sound")
+  %h3= term.romanized if game.is_easy?
 #answers
   %ul
     - answers.shuffle.each do |answer|

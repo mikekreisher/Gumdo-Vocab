@@ -1,2 +1,8 @@
-%p Congratulations
-%p= "#{game.answers.count(1)} / #{game.answers.count} Correct"
+%p= "You Scored #{number_to_percentage((game.answers.count(1).to_f / game.answers.count) * 100, :precision=>0)}"
+%table
+  - (0...game.answers.count).to_a.in_groups_of(2).each do |index_group|
+    %tr
+      - index_group.each do |index|
+        - term = VocabTerm.find(game.questions[index]) unless index.nil?
+        %td= game.answers[index] == 1 ? image_tag("/images/correct.jpeg") : image_tag("/images/incorrect.jpeg")
+        %td= term.korean + ": " + term.english

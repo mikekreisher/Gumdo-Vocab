@@ -24,6 +24,11 @@
   <b>Audio Source:</b>
   <%= @vocab_term.audio_source %>
 </p>
- 
+
+<p>
+	<%= audio_tag(@vocab_term.audio_source, :auto_play=>false, :controls=>true)%>
+</p>
+<%= link_to "Google Translate Pronunciation", "http://translate.google.com/translate_tts?tl=ko&q="+@vocab_term.korean %>
+<br/>
 <%= link_to 'Edit', edit_vocab_term_path(@vocab_term) %> |
 <%= link_to 'Back', vocab_terms_path %>

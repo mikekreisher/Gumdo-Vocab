@@ -4,9 +4,13 @@ class GamesController < ApplicationController
     @game = Game.new
     @game.questions = Array.new
     @game.answers = Array.new
-    @questions_total = 10
+    @questions_total = params[:questions_total].to_i
+    @questions_total ||= 10
+    @game.difficulty = params[:difficulty]
+    @game.difficulty ||= "easy"
+    @game.categories = params[:categories]
     
-    VocabTerm.all.shuffle.sample(@questions_total).each do |term|
+    VocabTerm.where(:category => params[:categories]).shuffle.sample(@questions_total).each do |term|
       @game.questions << term.id
     end
     
@@ -18,6 +22,16 @@ class GamesController < ApplicationController
   end
   
   def new
+    @game = Game.new
+    @vocab_categories = Array.new
+    VocabTerm.select(:category).each do |term|
+      @vocab_categories << term.category if !@vocab_categories.include? term.category
+    end
+    @vocab_categories.sort!.uniq!
+    
+    respond_to do |format|
+      format.html
+    end
   end
   
   def show
