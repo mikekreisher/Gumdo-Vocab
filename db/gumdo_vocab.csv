@@ -1,127 +1,128 @@
-korean,romanized,english,category
-차렷,Charot,Come to Attention,Basic Commands
-경례,Gyôngnye,Bow,Basic Commands
-바로,Paro,Relax,Basic Commands
-준비,Chunbi,Get Ready,Basic Commands
-시작,Sijak,Start,Basic Commands
-발도,Paldo,Draw Sword,Basic Commands
-착검,Chakkôm,Sheathe Sword,Basic Commands
-중단 견적,Chungmyôn kyônjôk,Center Aim,Basic Commands
-자세 바꾸세요,Chase pakkuseyo,Change Stance to Face Rear,Basic Commands
-연속 하요,Yônsok hayo,Continuous,Basic Commands
-자연세,Chayôn-se,Natural Stance,Stances
-대도세,Taedo-se,Long Stance,Stances
-소도세,Sodo-se,Short Stance,Stances
-기마세,Kima-se,Horse-Riding Stance,Stances
-조천세,Choch’ôn-se,Upper Ready Stance,Stances
-금계독립팔상세,Kûmgye dongnip p’alsang-se,Golden Rooster Standing on One Leg with 8 Aspects,Stances
-팔상세,p’alsang-se,Position with Sword Held Vertically on the Right at Chest Level,Stances
-지하세,Chiha-se,Lower Ready Stance,Stances
-범세,Pôm-se,Tiger Stance,Stances
-복호세,Pokho-se,Multiple Arc Stance,Stances
-역소도세,Yôk-sodo-se,Sodo-se with Front Foot Outwards,Stances
-은닉세,Ûnnik-se,Cross-Step/Sitting Down,Stances
-중면 베기,Chungmyôn pegi,Center Cut,Cuts
-좌 베기,Chwa pegi,Left-Center Cut,Cuts
-우 베기,U pegi,Right-Center Cut,Cuts
-횡단 베기,Hwengdan pegi,Horizontal Cut,Cuts
-올라 베기,Olla pegi,Upwards Cut,Cuts
-대격,Taekyôk,Great Strike,Cuts
-지르기,Chirûgi,Thrust/Stab,Cuts
-외수 베기,Wesu pegi,One Handed Cut,Cuts
-까치 베기,Kkach’i pegi,Magpie Cut,Cuts
-삼단 베기,Samdan pegi,Three Cuts,Cuts
-광자 베기,Gwangja pegi,Six Cuts,Cuts
-이어 베기,Io pegi,Quick Step Cut,Cuts
-검고,Kôm ko,Tip of the Sword,Sword
-검날,Kôm nal,Blade,Sword
-검등,Kôm tûng,Back of the Sword,Sword
-검막이,Kôm mak-e,Guard,Sword
-검선잡히,Kôm sôn chap-hi,Hilt,Sword
-호메,Home,Line Along the Length of the Blade,Sword
-검집,Kôm chib,Scabbard,Sword
-친검,Ch’inkôm,Real Sword,Sword
-가검,Kakôm,Temporary Sword,Sword
-목검,Mokkôm,Wooden Sword,Sword
-죽도,Chukdo,Bamboo Sword,Sword
-검법,Kômpop,Method of Using Sword,Forms
-쌍수 검법,Ssangsu Kômpop,Two Handed Sword Method,Forms
-심상 검법,Simsang Kômpop,Appearance of the Heart Sword Method,Forms
-예도 검법,Yedo Kômpop,Short Sword Method,Forms
-본국 검법,Ponguk Kômpop,Our Nation Sword Method,Forms
-장백 검법,Jangbaek Kômpop,Training Hall of the Kokuryô General Yu Yu Sword Method,Forms
-음양 검법,Ûmyang Kômpop,Light and Shade Sword Method,Forms
-대극 검법,Taegûk Kômpop,Great Ultimate Sword Method,Forms
-해동 검법,Haedong Kômpop,People of the East Sea Sword Method,Forms
-쌍검 검법,Ssanggôm Kômpop,Two Sword Method,Forms
-촛불 끄기,Ch’otbul KKûgi,Candle Snuffing,Exercises
-대나무 베기,Taenamu Pegi,Bamboo Cutting,Exercises
-신문지 베기,Sinmunji Pegi,Newspaper Cutting,Exercises
-각목자르기,Kagmok Charugi,Board Breaking,Exercises
-방격,Panggyôk,Counter Attack,Cuts
-팔궆혀펴기,P’algup hyôpyôki,Push Ups,Exercises
-웃몸일으키기,Utmom lrûk’igi,Sit Ups,Exercises
-풍차구르기,P’ungch’a-kurugl,Cartwheel,Exercises
-점프/뛰기,Jump'u / ttwigi,Jump,Exercises
-낙법,Nakbôp,Rolls,Exercises
-숙여주기,Sukyô chugi,Stretching,Exercises
-격검,Kyôkkôm,Partner Drills,Exercises
-겨루기,Kyôruki,Sparring,Exercises
-안녕 하세요,Annyông Haseyo,Hello,Formalities
-감사 합니다,Kamsa Hamnida,Thank You,Formalities
-달인,Tarin,Master,Formalities
-지도사범,Chido Sabôm,Master,Formalities
-관장 님,Kwanjang Nim,Head of Dojang,Formalities
-사범 님,Sabôm Nim,Instructor,Formalities
-부사범 님,Pu-abôm Nim,Assistant of Junior Instructor,Formalities
-교범 님,Kyobôm Nim,Assistant of Junior Instructor,Formalities
-고단자,Kodanja,4th Dan or Higher,Formalities
-초단,Ch’odan,1st Dan,Formalities
-유단자,Yudanja,Black Belt of any Grade,Formalities
-제자,Checha,Disciple,Formalities
-하나,Hana,One,Counting
-둘,Tul,Two,Counting
-셋,Set,Three,Counting
-넷,Net,Four,Counting
-다섯,Tasot,Five,Counting
-여섯,Yosot,Six,Counting
-일곱,Ilgop,Seven,Counting
-여덟,Yodulp,Eight,Counting
-아홉,Ahop,Nine,Counting
-열,Yol,Ten,Counting
-일,Il,One,Counting
-이,Ee,Two,Counting
-삼,Sam,Three,Counting
-사,Sa,Four,Counting
-오,Oh,Five,Counting
-육,Yuk,Six,Counting
-칠,Ch'il,Seven,Counting
-팔,P'al,Eight,Counting
-구,Ku,Nine,Counting
-십,Sip,Ten,Counting
-스물,Sumul,Twenty,Counting
-서른,Sorun,Thirty,Counting
-마흔,Mahun,Forty,Counting
-쉰,Shween,Fifty,Counting
-예순,Yesun,Sixty,Counting
-이른,Irun,Seventy,Counting
-여든,Yodun,Eighty,Counting
-아흔,Ahun,Ninety,Counting
-백,Baek,One Hundred,Counting
-천,Ch'eon,One Thousand,Counting
-만,Man,Ten Thousand,Counting
-억,Eok,One Hundred Million,Counting
-도복,Dobok,Uniform,Uniform
-바지,Paji,Pants,Uniform
-옷도리,Ottori,Top,Uniform
-띠,Tti,Belt,Uniform
-매띠업,Maettiôp,Tie,Uniform
-횐색 (백),Hoin-saek (Paek),White,Colors
-노란색,Noran-saek,Yellow,Colors
-초록색,Ch’orok-saek,Green,Colors
-파란 색,P’aran-saek,Blue,Colors
-빨간색,Ppalgan-saek,Red,Colors
-밤색,Pam-saek,Brown,Colors
-까만색,Kkaman-saek,Black,Colors
-주황색,Juhwang-saek,Orange,Colors
-보라색,Bora-saek,Purple,Colors
+korean,romanized,english,category,audio_source
+기합,Kihap,Yell,Basic Commands,basic_commands/kihap.mp3
+차렷,Charot,Come to Attention,Basic Commands,basic_commands/charot.mp3
+경례,Gyôngnye,Bow,Basic Commands,basic_commands/gyôngnye.mp3
+바로,Paro,Relax,Basic Commands,basic_commands/paro.mp3
+준비,Chunbi,Get Ready,Basic Commands,basic_commands/chunbi.mp3
+시작,Sijak,Start,Basic Commands,basic_commands/sijak.mp3
+발도,Paldo,Draw Sword,Basic Commands,basic_commands/paldo.mp3
+착검,Chakkôm,Sheathe Sword,Basic Commands,basic_commands/chakkôm.mp3
+중단 견적,Chungmyôn kyônjôk,Center Aim,Basic Commands,basic_commands/chungmyôn_kyônjôk.mp3
+자세 바꾸세요,Chase pakkuseyo,Change Stance to Face Rear,Basic Commands,basic_commands/chase_pakkuseyo.mp3
+연속 하요,Yônsok hayo,Continuous,Basic Commands,basic_commands/yônsok_hayo.mp3
+자연세,Chayôn-se,Natural Stance,Stances,stances/chayôn-se.mp3
+대도세,Taedo-se,Long Stance,Stances,stances/taedo-se.mp3
+소도세,Sodo-se,Short Stance,Stances,stances/sodo-se.mp3
+기마세,Kima-se,Horse-Riding Stance,Stances,stances/kima-se.mp3
+조천세,Choch’ôn-se,Upper Ready Stance,Stances,stances/choch’ôn-se.mp3
+금계독립팔상세,Kûmgye dongnip p’alsang-se,Golden Rooster Standing on One Leg with 8 Aspects,Stances,stances/kûmgye_dongnip_p’alsang-se.mp3
+팔상세,p’alsang-se,Position with Sword Held Vertically on the Right at Chest Level,Stances,stances/p’alsang-se.mp3
+지하세,Chiha-se,Lower Ready Stance,Stances,stances/chiha-se.mp3
+범세,Pôm-se,Tiger Stance,Stances,stances/pôm-se.mp3
+복호세,Pokho-se,Multiple Arc Stance,Stances,stances/pokho-se.mp3
+역소도세,Yôk-sodo-se,Sodo-se with Front Foot Outwards,Stances,stances/yôk-sodo-se.mp3
+은닉세,Ûnnik-se,Cross-Step/Sitting Down,Stances,stances/ûnnik-se.mp3
+중면 베기,Chungmyôn pegi,Center Cut,Cuts,cuts/chungmyôn_pegi.mp3
+좌 베기,Chwa pegi,Left-Center Cut,Cuts,cuts/chwa_pegi.mp3
+우 베기,U pegi,Right-Center Cut,Cuts,cuts/u_pegi.mp3
+횡단 베기,Hwengdan pegi,Horizontal Cut,Cuts,cuts/hwengdan_pegi.mp3
+올라 베기,Olla pegi,Upwards Cut,Cuts,cuts/olla_pegi.mp3
+대격,Taekyôk,Great Strike,Cuts,cuts/taekyôk.mp3
+지르기,Chirûgi,Thrust/Stab,Cuts,cuts/chirûgi.mp3
+외수 베기,Wesu pegi,One Handed Cut,Cuts,cuts/wesu_pegi.mp3
+까치 베기,Kkach’i pegi,Magpie Cut,Cuts,cuts/kkach’i_pegi.mp3
+삼단 베기,Samdan pegi,Three Cuts,Cuts,cuts/samdan_pegi.mp3
+광자 베기,Gwangja pegi,Six Cuts,Cuts,cuts/gwangja_pegi.mp3
+이어 베기,Io pegi,Quick Step Cut,Cuts,cuts/io_pegi.mp3
+검고,Kôm ko,Tip of the Sword,Sword,sword/kôm_ko.mp3
+검날,Kôm nal,Blade,Sword,sword/kôm_nal.mp3
+검등,Kôm tûng,Back of the Sword,Sword,sword/kôm_tûng.mp3
+검막이,Kôm mak-e,Guard,Sword,sword/kôm_mak-e.mp3
+검선잡히,Kôm sôn chap-hi,Hilt,Sword,sword/kôm_sôn_chap-hi.mp3
+호메,Home,Line Along the Length of the Blade,Sword,sword/home.mp3
+검집,Kôm chib,Scabbard,Sword,sword/kôm_chib.mp3
+친검,Ch’inkôm,Real Sword,Sword,sword/ch’inkôm.mp3
+가검,Kakôm,Temporary Sword,Sword,sword/kakôm.mp3
+목검,Mokkôm,Wooden Sword,Sword,sword/mokkôm.mp3
+죽도,Chukdo,Bamboo Sword,Sword,sword/chukdo.mp3
+검법,Kômpop,Method of Using Sword,Forms,forms/kômpop.mp3
+쌍수 검법,Ssangsu Kômpop,Two Handed Sword Method,Forms,forms/ssangsu_kômpop.mp3
+심상 검법,Simsang Kômpop,Appearance of the Heart Sword Method,Forms,forms/simsang_kômpop.mp3
+예도 검법,Yedo Kômpop,Short Sword Method,Forms,forms/yedo_kômpop.mp3
+본국 검법,Ponguk Kômpop,Our Nation Sword Method,Forms,forms/ponguk_kômpop.mp3
+장백 검법,Jangbaek Kômpop,Training Hall of the Kokuryô General Yu Yu Sword Method,Forms,forms/jangbaek_kômpop.mp3
+음양 검법,Ûmyang Kômpop,Light and Shade Sword Method,Forms,forms/ûmyang_kômpop.mp3
+대극 검법,Taegûk Kômpop,Great Ultimate Sword Method,Forms,forms/taegûk_kômpop.mp3
+해동 검법,Haedong Kômpop,People of the East Sea Sword Method,Forms,forms/haedong_kômpop.mp3
+쌍검 검법,Ssanggôm Kômpop,Two Sword Method,Forms,forms/ssanggôm_kômpop.mp3
+촛불 끄기,Ch’otbul KKûgi,Candle Snuffing,Exercises,exercises/ch’otbul_kkûgi.mp3
+대나무 베기,Taenamu Pegi,Bamboo Cutting,Exercises,exercises/taenamu_pegi.mp3
+신문지 베기,Sinmunji Pegi,Newspaper Cutting,Exercises,exercises/sinmunji_pegi.mp3
+각목자르기,Kagmok Charugi,Board Breaking,Exercises,exercises/kagmok_charugi.mp3
+방격,Panggyôk,Counter Attack,Cuts,cuts/panggyôk.mp3
+팔궆혀펴기,P’algup hyôpyôki,Push Ups,Exercises,exercises/p’algup_hyôpyôki.mp3
+웃몸일으키기,Utmom lrûk’igi,Sit Ups,Exercises,exercises/utmom_lrûk’igi.mp3
+풍차구르기,P’ungch’a-kurugl,Cartwheel,Exercises,exercises/p’ungch’a-kurugl.mp3
+점프/뛰기,Jump'u / ttwigi,Jump,Exercises,exercises/jump'u_ttwigi.mp3
+낙법,Nakbôp,Rolls,Exercises,exercises/nakbôp.mp3
+숙여주기,Sukyô chugi,Stretching,Exercises,exercises/sukyô_chugi.mp3
+격검,Kyôkkôm,Partner Drills,Exercises,exercises/kyôkkôm.mp3
+겨루기,Kyôruki,Sparring,Exercises,exercises/kyôruki.mp3
+안녕 하세요,Annyông Haseyo,Hello,Formalities,formalities/annyông_haseyo.mp3
+감사 합니다,Kamsa Hamnida,Thank You,Formalities,formalities/kamsa_hamnida.mp3
+달인,Tarin,Master,Formalities,formalities/tarin.mp3
+지도사범,Chido Sabôm,Master,Formalities,formalities/chido_sabôm.mp3
+관장 님,Kwanjang Nim,Head of Dojang,Formalities,formalities/kwanjang_nim.mp3
+사범 님,Sabôm Nim,Instructor,Formalities,formalities/sabôm_nim.mp3
+부사범 님,Pu-abôm Nim,Assistant of Junior Instructor,Formalities,formalities/pu-abôm_nim.mp3
+교범 님,Kyobôm Nim,Assistant of Junior Instructor,Formalities,formalities/kyobôm_nim.mp3
+고단자,Kodanja,4th Dan or Higher,Formalities,formalities/kodanja.mp3
+초단,Ch’odan,1st Dan,Formalities,formalities/ch’odan.mp3
+유단자,Yudanja,Black Belt of any Grade,Formalities,formalities/yudanja.mp3
+제자,Checha,Disciple,Formalities,formalities/checha.mp3
+하나,Hana,One,Counting,counting/hana.mp3
+둘,Tul,Two,Counting,counting/tul.mp3
+셋,Set,Three,Counting,counting/set.mp3
+넷,Net,Four,Counting,counting/net.mp3
+다섯,Tasot,Five,Counting,counting/tasot.mp3
+여섯,Yosot,Six,Counting,counting/yosot.mp3
+일곱,Ilgop,Seven,Counting,counting/ilgop.mp3
+여덟,Yodulp,Eight,Counting,counting/yodulp.mp3
+아홉,Ahop,Nine,Counting,counting/ahop.mp3
+열,Yol,Ten,Counting,counting/yol.mp3
+일,Il,One,Counting,counting/il.mp3
+이,Ee,Two,Counting,counting/ee.mp3
+삼,Sam,Three,Counting,counting/sam.mp3
+사,Sa,Four,Counting,counting/sa.mp3
+오,Oh,Five,Counting,counting/oh.mp3
+육,Yuk,Six,Counting,counting/yuk.mp3
+칠,Ch'il,Seven,Counting,counting/ch'il.mp3
+팔,P'al,Eight,Counting,counting/p'al.mp3
+구,Ku,Nine,Counting,counting/ku.mp3
+십,Sip,Ten,Counting,counting/sip.mp3
+스물,Sumul,Twenty,Counting,counting/sumul.mp3
+서른,Sorun,Thirty,Counting,counting/sorun.mp3
+마흔,Mahun,Forty,Counting,counting/mahun.mp3
+쉰,Shween,Fifty,Counting,counting/shween.mp3
+예순,Yesun,Sixty,Counting,counting/yesun.mp3
+이른,Irun,Seventy,Counting,counting/irun.mp3
+여든,Yodun,Eighty,Counting,counting/yodun.mp3
+아흔,Ahun,Ninety,Counting,counting/ahun.mp3
+백,Baek,One Hundred,Counting,counting/baek.mp3
+천,Ch'eon,One Thousand,Counting,counting/ch'eon.mp3
+만,Man,Ten Thousand,Counting,counting/man.mp3
+억,Eok,One Hundred Million,Counting,counting/eok.mp3
+도복,Dobok,Uniform,Uniform,uniform/dobok.mp3
+바지,Paji,Pants,Uniform,uniform/paji.mp3
+옷도리,Ottori,Top,Uniform,uniform/ottori.mp3
+띠,Tti,Belt,Uniform,uniform/tti.mp3
+매띠업,Maettiôp,Tie,Uniform,uniform/maettiôp.mp3
+횐색 (백),Hoin-saek (Paek),White,Colors,colors/hoin-saek_(paek).mp3
+노란색,Noran-saek,Yellow,Colors,colors/noran-saek.mp3
+초록색,Ch’orok-saek,Green,Colors,colors/ch’orok-saek.mp3
+파란 색,P’aran-saek,Blue,Colors,colors/p’aran-saek.mp3
+빨간색,Ppalgan-saek,Red,Colors,colors/ppalgan-saek.mp3
+밤색,Pam-saek,Brown,Colors,colors/pam-saek.mp3
+까만색,Kkaman-saek,Black,Colors,colors/kkaman-saek.mp3
+주황색,Juhwang-saek,Orange,Colors,colors/juhwang-saek.mp3
+보라색,Bora-saek,Purple,Colors,colors/bora-saek.mp3
