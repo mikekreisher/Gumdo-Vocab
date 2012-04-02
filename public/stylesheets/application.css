@@ -1,0 +1,28 @@
+#container {
+    margin: 0 auto;
+    width: 100%;
+    background: #fff;
+}
+
+#header {
+    background: #ccc;
+    padding: 20px;
+}
+
+#header h1 { 
+	margin: 0; 
+}
+
+#content-container {
+    float: left;
+    width: 1000px;
+    background: #fff url(/wp-content/uploads/layout-three-fixed-background.gif) repeat-y 100% 0;
+}
+
+#footer {
+    clear: left;
+    background: #ccc;
+    text-align: right;
+    padding: 20px;
+    height: 1%;
+}
